@@ -107,10 +107,10 @@ header {
   padding-top: 24px;
   border-top: 1px solid #323238; 
 }
-
+/* diminuir a fonte do horário dos jogos "font-size" para enquadrar os valores dos resultados dos jogos */
 .card ul li strong {
   font-weight: 900;
-  font-size: 36px;
+  font-size: 26px;
   line-height: 125%; 
   color: #E1E1E6;
 }

@@ -31,17 +31,17 @@ document.querySelector("#app").innerHTML = `
     </header>
     <main id="cards">
     ${createCard("20/11", "domingo", 
-    createGame("qatar", "13:00", "ecuador"))}
+    createGame("qatar", " (0) 13:00 (2) ", "ecuador"))}
 
 
     ${createCard("21/11", "segunda", 
-     createGame("england", "10:00", "iran")+ 
-     createGame("senegal", "13:00", "netherlands")+ 
-     createGame("usa", "16:00", "wales"))}
+     createGame("england", " (6) 10:00 (2) ", "iran")+ 
+     createGame("senegal", " (0) 13:00 (2) ", "netherlands")+ 
+     createGame("usa", " (1) 16:00 (1) ", "wales"))}
 
 
      ${createCard("22/11", "terça", 
-     createGame("argentina", "07:00", "saudiarabia")+ 
+     createGame("argentina", " (1) 07:00 (2) ", "saudiarabia")+ 
      createGame("denmark", "10:00", "tunisia")+ 
      createGame("mexico", "13:00", "poland")+ 
      createGame("france", "16:00", "australia"))}
