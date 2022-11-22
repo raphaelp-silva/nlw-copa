@@ -101,6 +101,7 @@ header {
   display:flex;
   align-items: center;
   justify-content: space-between;
+  color: #f7dd43;
 }
 /* para fazer a linha entre os jogos dentro do card */
 .card ul li + li {
@@ -114,6 +115,7 @@ header {
   line-height: 125%; 
   color: #E1E1E6;
 }
+
 /* movimentação para aumentar o icone quando passo o mouse em cima, e configuração da transição suave com tempo determinado em segundos */
 .card h2:hover,
 .card ul li strong:hover,
