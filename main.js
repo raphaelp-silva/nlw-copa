@@ -118,7 +118,7 @@ const yellow_botton = document.querySelector("#themes #theme-yellow");
 const green_botton = document.querySelector("#themes #theme-green");
 
 blue_botton.addEventListener("click", () => {
-  change_color.classList.remove("yelloq");
+  change_color.classList.remove("yellow");
   change_color.classList.remove("green");
   change_color.classList.add("blue");
 });
