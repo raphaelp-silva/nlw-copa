@@ -112,3 +112,25 @@ document.querySelector("#app").innerHTML = `
      createGame("serbia","-", "16:00","-", "switzerland"))}      
     </main>
 `
+const change_color = document.querySelector("body");
+const blue_botton = document.querySelector("#themes #theme-blue");
+const yellow_botton = document.querySelector("#themes #theme-yellow");
+const green_botton = document.querySelector("#themes #theme-green");
+
+blue_botton.addEventListener("click", () => {
+  change_color.classList.remove("yelloq");
+  change_color.classList.remove("green");
+  change_color.classList.add("blue");
+});
+
+yellow_botton.addEventListener("click", () => {
+  change_color.classList.remove("blue");
+  change_color.classList.remove("green");
+  change_color.classList.add("yellow");
+});
+
+green_botton.addEventListener("click", () => {
+  change_color.classList.remove("yellow");
+  change_color.classList.remove("blue");
+  change_color.classList.add("green");
+});

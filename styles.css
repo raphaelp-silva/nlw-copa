@@ -6,17 +6,17 @@
 }
 
 :root {
-  --card-title-border-color: #746615;
-  --card-color-primary: #f7dd43;
-  --card-bg-color: #1d1c19;
-  --bg: url(./assets/bg-yellow.svg); 
-}
-
-body.blue {
   --card-title-border-color: #338AF3;
   --card-color-primary: #338af3;
   --card-bg-color: #202024;
   --bg: url(./assets/bg-blue.svg);
+}
+
+body.yellow {
+  --card-title-border-color: #746615;
+  --card-color-primary: #f7dd43;
+  --card-bg-color: #1d1c19;
+  --bg: url(./assets/bg-yellow.svg); 
 }
 
 body.green {
@@ -40,6 +40,39 @@ body {
 }
 body * {
   font-family: 'Roboto', sans-serif;
+} 
+body #themes {
+  display: flex;
+  position: fixed;
+  width: 70px;
+  padding-top: 5px;
+  padding-left: 3px;
+}
+
+body #themes #theme-blue,
+body #themes #theme-yellow,
+body #themes #theme-green {
+  width: 20px;
+  height: 20px;
+  margin: 5px;
+  border-radius: 20px;
+}
+body #themes #theme-blue {
+  border: 2px solid #0073ff;
+  background-color: #006eff6c;
+  cursor: pointer;
+}
+
+body #themes #theme-yellow {
+  border: 2px solid #ffd900;
+  background-color: #ffd0006e;
+  cursor: pointer;
+}
+
+body #themes #theme-green {
+  border: 2px solid #00ff80;
+  background-color: #00ff9179;
+  cursor: pointer;
 }
 
 #app {
