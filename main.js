@@ -56,14 +56,14 @@ document.querySelector("#app").innerHTML = `
 
   
      ${createCard("24/11", "quinta", 
-     createGame("switzerland","-", "07:00","-", "cameroon")+ 
-     createGame("uruguay","-", "10:00","-", "southkorea")+ 
-     createGame("portugal","-", "13:00","-", "ghana")+ 
-     createGame("brazil","-", "16:00","-", "serbia"))}
+     createGame("switzerland","1", "07:00","0", "cameroon")+ 
+     createGame("uruguay","0", "10:00","0", "southkorea")+ 
+     createGame("portugal","3", "13:00","2", "ghana")+ 
+     createGame("brazil","2", "16:00","0", "serbia"))}
 
      ${createCard("25/11", "sexta", 
-     createGame("wales","-", "07:00","-", "iran")+ 
-     createGame("qatar","-", "10:00","-", "senegal")+ 
+     createGame("wales","0", "07:00","2", "iran")+ 
+     createGame("qatar","1", "10:00","3", "senegal")+ 
      createGame("netherlands","-", "13:00","-", "ecuador")+ 
      createGame("england","-", "16:00","-", "usa"))}
 
