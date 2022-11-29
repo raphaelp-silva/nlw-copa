@@ -64,27 +64,27 @@ document.querySelector("#app").innerHTML = `
      ${createCard("25/11", "sexta", 
      createGame("wales","0", "07:00","2", "iran")+ 
      createGame("qatar","1", "10:00","3", "senegal")+ 
-     createGame("netherlands","-", "13:00","-", "ecuador")+ 
-     createGame("england","-", "16:00","-", "usa"))}
+     createGame("netherlands","1", "13:00","1", "ecuador")+ 
+     createGame("england","0", "16:00","0", "usa"))}
 
      ${createCard("26/11", "sábado", 
-     createGame("tunisia","-", "07:00","-", "australia")+ 
-     createGame("poland","-", "10:00","-", "saudiarabia")+ 
-     createGame("france","-", "13:00","-", "denmark")+ 
-     createGame("argentina","-", "16:00","-", "mexico"))}
+     createGame("tunisia","0", "07:00","1", "australia")+ 
+     createGame("poland","2", "10:00","0", "saudiarabia")+ 
+     createGame("france","2", "13:00","1", "denmark")+ 
+     createGame("argentina","2", "16:00","0", "mexico"))}
 
      ${createCard("27/11", "domingo", 
-     createGame("japan","-", "07:00","-", "costarica")+ 
-     createGame("belgium","-", "10:00","-", "morocco")+ 
-     createGame("croatia","-", "13:00","-", "canada")+ 
-     createGame("spain","-", "16:00","-", "germany"))}
+     createGame("japan","0", "07:00","1", "costarica")+ 
+     createGame("belgium","0", "10:00","2", "morocco")+ 
+     createGame("croatia","4", "13:00","1", "canada")+ 
+     createGame("spain","1", "16:00","1", "germany"))}
      
      
      ${createCard("28/11", "segunda", 
-     createGame("cameroon","-", "07:00","-", "serbia")+
-     createGame("southkorea","-", "10:00","-", "ghana")+
-     createGame("brazil","-", "13:00","-", "switzerland")+
-     createGame("portugal","-", "16:00","-", "uruguay"))}
+     createGame("cameroon","3", "07:00","3", "serbia")+
+     createGame("southkorea","2", "10:00","3", "ghana")+
+     createGame("brazil","1", "13:00","0", "switzerland")+
+     createGame("portugal","2", "16:00","0", "uruguay"))}
 
      ${createCard("29/11", "terça", 
      createGame("ecuador","-", "12:00","-", "senegal")+
