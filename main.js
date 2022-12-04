@@ -93,23 +93,44 @@ document.querySelector("#app").innerHTML = `
      createGame("wales","0", "16:00","3", "england"))}
 
      ${createCard("30/11", "quarta", 
-     createGame("tunisia","-", "12:00","-", "france")+
-     createGame("australia","-", "12:00","-", "denmark")+
-     createGame("poland","-", "16:00","-", "argentina")+
-     createGame("saudiarabia","-", "16:00","-", "mexico"))}
+     createGame("tunisia","1", "12:00","0", "france")+
+     createGame("australia","1", "12:00","0", "denmark")+
+     createGame("poland","0", "16:00","2", "argentina")+
+     createGame("saudiarabia","1", "16:00","2", "mexico"))}
 
      ${createCard("01/12", "quinta", 
-     createGame("croatia","-", "12:00","-", "belgium")+
-     createGame("canada","-", "12:00","-", "morocco")+
-     createGame("japan","-", "16:00","-", "spain")+
-     createGame("costarica","-", "16:00","-", "germany"))}
+     createGame("croatia","0", "12:00","0", "belgium")+
+     createGame("canada","1", "12:00","2", "morocco")+
+     createGame("japan","2", "16:00","1", "spain")+
+     createGame("costarica","2", "16:00","4", "germany"))}
      
      
      ${createCard("02/12", "sexta",
-     createGame("southkorea","-", "12:00","-", "portugal")+
-     createGame("ghana","-", "12:00","-", "uruguay")+
-     createGame("cameroon","-", "16:00","-", "brazil")+
-     createGame("serbia","-", "16:00","-", "switzerland"))}      
+     createGame("southkorea","2", "12:00","1", "portugal")+
+     createGame("ghana","0", "12:00","2", "uruguay")+
+     createGame("cameroon","1", "16:00","0", "brazil")+
+     createGame("serbia","2", "16:00","3", "switzerland"))}      
+
+     ${createCard("03/12", "sábado  (oitavas)",
+     createGame("netherlands","3", "12:00","1", "usa")+
+     createGame("argentina","2", "16:00","1", "australia"))}
+
+     ${createCard("04/12", "domingo  (oitavas)",
+     createGame("france","-", "12:00","-", "poland")+
+     createGame("england","-", "16:00","-", "senegal"))}
+
+     ${createCard("05/12", "segunda  (oitavas)",
+     createGame("japan","-", "12:00","-", "croatia")+
+     createGame("brazil","-", "16:00","-", "southkorea"))}
+
+     ${createCard("06/12", "terça  (oitavas)",
+     createGame("morocco","-", "12:00","-", "spain")+
+     createGame("portugal","-", "16:00","-", "switzerland"))}
+
+     
+     ${createCard("09/12", "sexta  (quartas)",
+     createGame("netherlands","-", "16:00","-", "argentina"))}
+     
     </main>
 `
 const change_color = document.querySelector("body");
