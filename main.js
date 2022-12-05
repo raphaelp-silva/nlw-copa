@@ -120,8 +120,8 @@ document.querySelector("#app").innerHTML = `
      createGame("england","3", "16:00","0", "senegal"))}
 
      ${createCard("05/12", "segunda  (oitavas)",
-     createGame("japan","-", "12:00","-", "croatia")+
-     createGame("brazil","-", "16:00","-", "southkorea"))}
+     createGame("japan","1", "12:00","1", "croatia")+
+     createGame("brazil","4", "16:00","1", "southkorea"))}
 
      ${createCard("06/12", "terça  (oitavas)",
      createGame("morocco","-", "12:00","-", "spain")+
@@ -129,8 +129,16 @@ document.querySelector("#app").innerHTML = `
 
      
      ${createCard("09/12", "sexta  (quartas)",
+     createGame("croatia","-", "12:00","-", "brazil"))}
+     
+     ${createCard("09/12", "sexta  (quartas)",
      createGame("netherlands","-", "16:00","-", "argentina"))}
      
+          
+     ${createCard("10/12", "sábado  (quartas)",
+     createGame("england","-", "16:00","-", "france"))}
+
+
     </main>
 `
 const change_color = document.querySelector("body");
