@@ -141,10 +141,13 @@ document.querySelector("#app").innerHTML = `
      createGame("england","1", "16:00","2", "france"))}
 
      ${createCard("13/12", "terça  (semi final)",
-     createGame("argentina","-", "16:00","-", "croatia"))}
+     createGame("argentina","3", "16:00","0", "croatia"))}
 
      ${createCard("14/12", "quarta  (semi final)",
-     createGame("france","-", "16:00","-", "morocco"))}
+     createGame("france","2", "16:00","0", "morocco"))}
+
+     ${createCard("18/12", "domingo  (FINAL)",
+     createGame("france","3", "16:00","3", "argentina"))}
 
 
     </main>
